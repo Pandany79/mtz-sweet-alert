@@ -11,7 +11,7 @@
 ```
 -->
 ```html
-<sweet-alert title="Oops..." text="Something went wrong!" type="error"></sweet-alert>
+<mtz-sweet-alert title="Oops..." text="Something went wrong!" type="error"></mtz-sweet-alert>
 
 <script>
   document.querySelector('mtz-sweet-alert').open()
@@ -29,4 +29,4 @@ bower install --save MaritzSTL/mtz-sweet-alert
 ```html
 <link rel="import" href="bower_components/mtz-sweet-alert/mtz-sweet-alert.html">
 
-<sweet-alert type="success" title="Awesome"></sweet-alert>
+<mtz-sweet-alert type="success" title="Awesome"></mtz-sweet-alert>
